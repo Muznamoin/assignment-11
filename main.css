@@ -1,0 +1,71 @@
+ /*syeda Muzna Moin-8939074*/
+ .body{
+    width: 500px;
+    max-width: 600px;
+    margin:auto;
+   font: normal 15px verdana,sans-serif ;
+    padding: 10px;
+ }
+ .header{
+   border: 4px solid;
+   border-radius: 5px;
+   margin: auto;
+   padding: 10px;
+   color: green;
+ }
+ h1,h2{
+  color: green;
+  font-variant: small-caps;
+ }
+ .footer p{
+  font-size: 6px;
+  color: blue;
+  border: 4px solid;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+  color: green;
+ }
+ .aside{
+  float:right;
+  clear:right;
+  width: 166px;
+  padding: 10px;
+  margin: right;
+ }
+ .main{
+  float: left;
+  width: 333px;
+  padding: 10px;
+  margin:left;
+ }
+.maining figure img{
+  border: 5px solid;
+  margin:right;
+  padding: 10px;
+  color: green;
+ }
+figcaption{
+  font: bold small-caps;
+ }
+ q{
+  font-family: cursive;
+  font-style: italic;
+  font-size: 25px;
+ }
+ .aside nav ul li{
+  list-style-type:none;
+  line-height: 40px;
+ }
+ li>a{
+  color: red;
+  cursor: pointer;
+ }
+  a::first-line{
+    transition: all 0.4s linear  ;
+    color: red
+    
+  }
+  a;:hover{
+    color: blue
+  }
